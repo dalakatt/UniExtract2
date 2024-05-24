@@ -1,3 +1,7 @@
+- name: Upload coverage reports to Codecov
+    uses: codecov/codecov-action@v4.0.1
+    with:
+      token: ${{ secrets.CODECOV_TOKEN }}
 # Universal Extractor 2 _(UniExtract2)_
 [![Download](https://img.shields.io/badge/download-success?style=for-the-badge)](https://github.com/Bioruebe/UniExtract2#download)
 
